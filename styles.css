@@ -316,3 +316,11 @@ footer{background:var(--bg-alt);border-top:1px solid var(--line);padding-block:5
 .book.choose{padding-top:clamp(32px,4vw,48px)}
 .book.choose .section-head{margin-bottom:28px}
 .book.choose .section-head .eyebrow{font-size:1.15rem;letter-spacing:.1em}
+
+/* Legal pages */
+.legal{max-width:76ch;gap:14px}
+.legal h2{font-size:1.5rem;margin-top:22px}
+.legal h3{font-size:1.15rem;margin-top:8px}
+.legal ul{margin:0;padding-left:22px;display:grid;gap:6px;color:var(--ink)}
+.legal p{color:var(--ink)}
+.legal-links a,.legal a{color:inherit}
